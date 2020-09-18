@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Hero" representedClassName="Hero" syncable="YES">
+        <attribute name="agiGain" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="attackType" attributeType="String" defaultValueString=""/>
+        <attribute name="baseAgi" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="baseArmor" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="baseDamageMax" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="baseDamageMin" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="baseInt" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="baseMana" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="baseStr" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" attributeType="String" defaultValueString=""/>
+        <attribute name="intGain" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="movementSpeed" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="primaryAttribute" attributeType="String" defaultValueString=""/>
+        <attribute name="roles" optional="YES" attributeType="Transformable"/>
+        <attribute name="strGain" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Hero" positionX="-63" positionY="-18" width="128" height="298"/>
+    </elements>
+</model>

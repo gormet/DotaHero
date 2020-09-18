@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeroListViewController" customModule="DotaHero" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="jEg-D0-o5c" id="L3k-gi-qSu"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rWq-gS-ihu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3cc-EP-gGf">
+                    <rect key="frame" x="0.0" y="0.0" width="852" height="57"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Hero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsN-WU-sFL">
+                            <rect key="frame" x="330.5" y="8" width="191.5" height="41"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="lsN-WU-sFL" firstAttribute="top" secondItem="3cc-EP-gGf" secondAttribute="top" constant="8" id="HqD-Mu-G6T"/>
+                        <constraint firstItem="lsN-WU-sFL" firstAttribute="centerX" secondItem="3cc-EP-gGf" secondAttribute="centerX" id="bkx-xj-7x0"/>
+                        <constraint firstAttribute="bottom" secondItem="lsN-WU-sFL" secondAttribute="bottom" constant="8" id="uQb-F7-wY0"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jEg-D0-o5c">
+                    <rect key="frame" x="0.0" y="57" width="852" height="357"/>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="jxb-7e-VUl">
+                        <size key="itemSize" width="256" height="144"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="3cc-EP-gGf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="DG0-7w-ZWp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="jEg-D0-o5c" secondAttribute="trailing" id="HaG-m8-bD0"/>
+                <constraint firstAttribute="bottom" secondItem="jEg-D0-o5c" secondAttribute="bottom" id="Hdr-xw-lFG"/>
+                <constraint firstItem="jEg-D0-o5c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="P9W-6e-Kb9"/>
+                <constraint firstItem="3cc-EP-gGf" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="XXa-BM-c8W"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3cc-EP-gGf" secondAttribute="trailing" id="Zu4-fI-Trg"/>
+                <constraint firstItem="jEg-D0-o5c" firstAttribute="top" secondItem="3cc-EP-gGf" secondAttribute="bottom" id="c0W-vn-Jgb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="42" y="104"/>
+        </view>
+    </objects>
+</document>
